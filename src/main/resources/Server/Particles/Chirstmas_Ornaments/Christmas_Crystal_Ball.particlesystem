@@ -1,0 +1,20 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "Snowflake_Big_Spawner",
+      "LifeSpan": {
+        "Min": 0,
+        "Max": 0
+      },
+      "PositionOffset": {
+        "Y": 0
+      }
+    },
+    {
+      "SpawnerId": "Candy_Cane_Spawner"
+    },
+    {
+      "SpawnerId": "Snowflake_Small_Spawner"
+    }
+  ]
+}

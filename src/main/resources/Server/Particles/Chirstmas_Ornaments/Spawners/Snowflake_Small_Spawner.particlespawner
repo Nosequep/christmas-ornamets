@@ -1,0 +1,101 @@
+{
+  "Particle": {
+    "Texture": "Particles/Textures/Ice/Snowflake.png",
+    "FrameSize": {
+      "Width": 32,
+      "Height": 32
+    },
+    "Animation": {
+      "0": {
+        "Opacity": 1,
+        "FrameIndex": {
+          "Min": 0
+        },
+        "Scale": {
+          "X": {
+            "Min": 0.01,
+            "Max": 0.01
+          }
+        }
+      },
+      "20": {
+        "Scale": {
+          "X": {
+            "Min": 1,
+            "Max": 1
+          }
+        },
+        "Opacity": 1
+      },
+      "80": {
+        "Opacity": 1,
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 0
+        },
+        "Scale": {
+          "X": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      },
+      "100": {
+        "Opacity": 0,
+        "Scale": {
+          "X": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": {
+        "X": {
+          "Min": 0.2,
+          "Max": 0.2
+        }
+      }
+    }
+  },
+  "SpawnRate": {
+    "Min": 8,
+    "Max": 14
+  },
+  "ParticleLifeSpan": {
+    "Min": 4,
+    "Max": 4
+  },
+  "EmitOffset": {
+    "X": {
+      "Min": 0.8,
+      "Max": 0.8
+    },
+    "Y": {
+      "Max": 0.8,
+      "Min": 0.8
+    },
+    "Z": {
+      "Min": 0.8,
+      "Max": 0.8
+    }
+  },
+  "SpawnBurst": true,
+  "InitialVelocity": {
+    "Pitch": {
+      "Min": -90,
+      "Max": -90
+    },
+    "Speed": {
+      "Min": 0.1,
+      "Max": 0.1
+    }
+  },
+  "Shape": "Cube",
+  "WaveDelay": {
+    "Min": 2,
+    "Max": 2
+  },
+  "ParticleRotationInfluence": "Billboard"
+}

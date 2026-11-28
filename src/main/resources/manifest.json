@@ -1,0 +1,19 @@
+{
+  "Group": "com.poupapitas",
+  "Name": "christmas-ornaments",
+  "Version": "0.1.0",
+  "Description": "Hytale mod that adds some Christmas ornaments",
+  "Authors": [
+    {
+      "Name": "poupapitas"
+    }
+  ],
+  "Website": "",
+  "ServerVersion": ">=0.8.0-pre.6",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "SubPlugins": []
+}

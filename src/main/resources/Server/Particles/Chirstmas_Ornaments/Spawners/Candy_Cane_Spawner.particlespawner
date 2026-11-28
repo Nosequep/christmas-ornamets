@@ -1,0 +1,83 @@
+{
+  "Shape": "Cube",
+  "Particle": {
+    "Texture": "Particles/Textures/Food_Candy_Cane.png",
+    "FrameSize": {
+      "Width": 0,
+      "Height": 0
+    },
+    "Animation": {
+      "0": {
+        "Opacity": 1,
+        "Scale": {
+          "X": {
+            "Min": 0.01,
+            "Max": 0.01
+          }
+        }
+      },
+      "50": {
+        "Opacity": 1,
+        "FrameIndex": {
+          "Min": 0,
+          "Max": 0
+        },
+        "Scale": {
+          "X": {
+            "Min": 1,
+            "Max": 1
+          }
+        }
+      },
+      "100": {
+        "Opacity": 0
+      }
+    },
+    "InitialAnimationFrame": {
+      "Scale": {
+        "X": {
+          "Min": 0.1,
+          "Max": 0.1
+        }
+      }
+    }
+  },
+  "SpawnBurst": true,
+  "SpawnRate": {
+    "Min": 2,
+    "Max": 4
+  },
+  "ParticleLifeSpan": {
+    "Min": 4,
+    "Max": 4
+  },
+  "WaveDelay": {
+    "Min": 2,
+    "Max": 2
+  },
+  "InitialVelocity": {
+    "Pitch": {
+      "Min": -90,
+      "Max": -90
+    },
+    "Speed": {
+      "Min": 0.1,
+      "Max": 0.1
+    }
+  },
+  "EmitOffset": {
+    "X": {
+      "Min": 0.75,
+      "Max": 0.75
+    },
+    "Y": {
+      "Min": 0.75,
+      "Max": 0.75
+    },
+    "Z": {
+      "Max": 0.75,
+      "Min": 0.75
+    }
+  },
+  "ParticleRotationInfluence": "Billboard"
+}

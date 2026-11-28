@@ -1,0 +1,81 @@
+{
+  "PlayerAnimationsId": "Block",
+  "BlockType": {
+    "CustomModel": "Blocks/Miscellaneous/Christmas_Crystal_Ball_Kweebec.blockymodel",
+    "DrawType": "Model",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/Miscellaneous/Christmas_Crystal_Ball_Kweebec_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "HitboxType": "Christmas_Crystal_Ball",
+    "BlockSoundSetId": "Window",
+    "PhysicalMaterialId": "Glass",
+    "Particles": [
+      {
+        "SystemId": "Christmas_Crystal_Ball",
+        "PositionOffset": {
+          "Y": 0,
+          "X": 0,
+          "Z": 0
+        }
+      }
+    ],
+    "VariantRotation": "NESW",
+    "FlipType": "Symmetric"
+  },
+  "Tags": {
+    "Bench": []
+  },
+  "RenderDeployablePreview": false,
+  "Icon": "Icons/ItemsGenerated/Christmas_Crystal.png",
+  "IconProperties": {
+    "Scale": 0.3,
+    "Rotation": [
+      18,
+      37,
+      20
+    ],
+    "Translation": [
+      24,
+      -28
+    ]
+  },
+  "TranslationProperties": {
+    "Name": "server.items.Christmas_Crystal_Ball_Kweebec.name"
+  },
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Furniture_Bench",
+        "Categories": [
+          "Furniture_Seasonal"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "WinterHoliday_Cane",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Deco_Kweebec_Plush",
+        "ItemTag": "",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "WinterHoliday_Snowflake",
+        "Quantity": 10
+      },
+      {
+        "ResourceTypeId": "",
+        "ItemTag": "",
+        "Quantity": 4,
+        "ItemId": "Wood_Darkwood_Planks_Half"
+      }
+    ]
+  }
+}
